@@ -39,4 +39,6 @@ export default {
   deleteDept: (params = {}) => request.delete('/dept/delete', { params }),
   // auditlog
   getAuditLogList: (params = {}) => request.get('/auditlog/list', { params }),
+  //models
+  getModels: (params = {}) => request.get('/model/list', { params }),
 }

@@ -9,6 +9,7 @@ from .depts import depts_router
 from .menus import menus_router
 from .roles import roles_router
 from .users import users_router
+from .apis import models
 
 v1_router = APIRouter()
 

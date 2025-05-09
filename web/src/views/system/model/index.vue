@@ -202,7 +202,7 @@ const columns = [
       ref="$table"
       v-model:query-items="queryItems"
       :columns="columns"
-      :get-data="api.getApis"
+      :get-data="api.getModels"
     >
       <template #queryBar>
         <QueryBarItem label="路径" :label-width="40">
